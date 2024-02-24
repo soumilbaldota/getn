@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "typescript": "^5.3.3"
+  },
+  "name": "@getn/getn-client",
+  "version": "1.0.3",
+  "main": "./dist/index.js",
+  "devDependencies": {},  
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "postprepare": "./node_modules/.bin/tsc"
+  },
+  "author": "Soumil Baldota",
+  "license": "ISC",
+  "description": " Automatically generate tests by reading request and response bodies"
+}
